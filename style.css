@@ -14,6 +14,7 @@ main{
   background-position: center;
   background-image: url("img/green_lawn.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
 }
 .headliner
 {
@@ -23,8 +24,6 @@ main{
 }
 
 header {
- /* background-color: #333;
-  color: #fff;*/
   background-color: burlywood;
   color: black;
 
