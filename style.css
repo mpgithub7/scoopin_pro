@@ -3,10 +3,17 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 body {
   font-family: Arial, sans-serif;
+}
+
+main{
+  background-position: center;
+  background-image: url("img/green_lawn.jpg");
+  background-repeat: no-repeat;
 }
 .headliner
 {
@@ -44,7 +51,7 @@ header {
 .logo {
   font-size: 1.5em;
   font-weight: bold;
-  max-width: 80px;
+  max-width: 85px;
   max-height: auto;
 }
 
@@ -115,8 +122,8 @@ header {
 /* Hero Section */
 .hero {
   text-align: center;
-  background-position: center;
-  background-repeat: no-repeat;
+  /*background-position: center;
+  background-repeat: no-repeat;*/
   padding-top: 3em;
   padding-bottom: 2em;
 }
@@ -152,16 +159,25 @@ section {
   text-align: center;
   margin-bottom: 1em;
 }
-
+.Estimatebutton
+{
+    background-color: rgb(255, 216, 20);
+    color: black;
+    border: none;
+    /*height: 40px;
+    width: 165px;*/
+    width: 9em;
+    height: 2em;
+    border-radius: 18px; 
+    font-size: 17px;
+    cursor: pointer;;
+    margin: 1em;
+}
 .socialmedia_sm_icon
 {
-  /*
-  width:40px;
-  height:40px;
-  */
   max-width: 2em;
   height:auto;
-  padding:0px; 
+  padding:5px; 
   float: right;
 }
 
